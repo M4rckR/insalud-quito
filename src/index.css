@@ -140,3 +140,7 @@ main {
     @apply bg-background text-foreground;
   }
 }	
+
+.react-player > iframe {
+  border-radius: .75rem !important;
+}

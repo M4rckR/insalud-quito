@@ -58,7 +58,7 @@ export const CarouselHome = () => {
         </div>
       </div>
       {/* Indicadores del carrusel */}
-        <div className="relative lg:absolute lg:bottom-4 lg:right-0 lg:-translate-x-1/2 flex gap-2 mt-2 justify-center lg:justify-end">
+        <div className="relative lg:absolute lg:bottom-4 lg:right-0 lg:-translate-x-1/2 flex gap-2 mt-4 justify-center lg:justify-end">
             {slides.map((_, index) => (
             <button
                 key={index}
