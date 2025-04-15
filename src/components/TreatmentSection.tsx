@@ -15,7 +15,7 @@ export const TreatmentSection = () => {
                 controls={true}
                 className="react-player"
                 light={true}
-                playing={false}
+                playing={true}
               />
               <img
                 src="/images/general/equipo-laser.png"
