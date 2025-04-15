@@ -4,7 +4,7 @@ import { CarouselHome } from "./ui/CarouselHome";
 
 export const MainHero = () => {
   return (
-    <section className="container mx-auto px-4 max-w-[1400px]">
+    <section className="container mx-auto px-4 max-w-[1400px] mb-12">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-y-6 gap-x-6">
         <div className="flex flex-col gap-2 md:gap-4">
           <h2 className="text-center md:text-left text-3xl md:text-4xl lg:text-5xl text-in-blue px-6 md:px-0">
@@ -22,7 +22,7 @@ export const MainHero = () => {
         <div className="flex justify-center md:justify-end">
           <CarouselHome />
         </div>
-        <div className="hidden space-y-2 pl-4 pt-2 md:-mt-24 lg:-mt-32 md:block">
+        <div className="hidden space-y-2 pl-4 pt-2 md:-mt-26 lg:-mt-32 md:block">
           <div className="flex items-start justify-center md:justify-start gap-2">
             <img
               className="w-6 md:w-8"
@@ -30,7 +30,7 @@ export const MainHero = () => {
               alt="quotes"
             />
             <p className="text-sm text-in-blue font-medium pt-2 max-w-[450px]">
-              Me hice el chequeo prostático en Insalud. Fue rápido, sencillo y
+              Me hice el chequeo prostático en Insalud. Fue rápido, sencillo y  
               me dio tranquilidad. ¡Lo recomiendo a todos los hombres de mi
               edad!
             </p>
@@ -47,7 +47,7 @@ export const MainHero = () => {
           </div>
         </div>
       </div>
-      <div className="md:hidden space-y-2 pl-4 pt-2 mt-4">
+      <div className="md:hidden space-y-2 pl-4 pt-4 mt-4">
         <div className="flex items-start justify-center gap-2">
           <img
             className="w-6 md:w-8"
