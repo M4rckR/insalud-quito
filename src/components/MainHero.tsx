@@ -1,3 +1,5 @@
+
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import { Button } from "./ui/Button"
 import { CarouselHome } from "./ui/CarouselHome"
 
@@ -20,6 +22,22 @@ export const MainHero = () => {
             </div>
             <div className="flex justify-center md:justify-end">
                 <CarouselHome/>
+            </div>
+            <div className="space-y-2 pl-4 pt-2 md:-mt-32 ">
+                <div className="flex items-start gap-2">
+                    <img className="w-6 md:w-8" src="/images/iconos/quotes.png" alt="quotes" />
+                    <p className="text-sm text-in-blue font-medium pt-2 max-w-[450px]">Me hice el chequeo prostático en Insalud. Fue rápido, sencillo y me dio tranquilidad. ¡Lo recomiendo a todos los hombres de mi edad!</p>
+                </div>
+                <div className="flex items-center gap-2 justify-center md:justify-start md:pl-6">
+                    <Avatar className="w-12 h-12">
+                        <AvatarImage src="/images/avatars/avatar-1.png"/>
+                        <AvatarFallback>Juan</AvatarFallback>
+                    </Avatar>
+                    <div className="text-in-blue">
+                        <p className="p-0 font-semibold text-lg/6">Juan Colden</p>
+                        <p className="p-0 text-sm/4">52 años</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
