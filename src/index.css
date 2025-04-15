@@ -3,7 +3,8 @@
 
 @theme {
   --color-in-blue: #004569;
-
+  --color-in-blue-light: #00BEB4;
+  --color-in-orange: #FFB531;
 
 
   /* Gradients */

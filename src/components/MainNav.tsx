@@ -2,7 +2,7 @@
 
 export const MainNav = () => {
   return (
-    <header className="container mx-auto px-4 max-w-[1400px]">
+    <header className="container mx-auto px-4 max-w-[1400px] mb-14">
       <section className="flex justify-between items-center ">
         <div className="flex items-center gap-2">
             <picture>
