@@ -7,6 +7,7 @@
   --color-in-blue: #004569;
   --color-in-blue-light: #00BEB4;
   --color-in-orange: #FFB531;
+  --color-in-base: #23242A;
 
   /* Gradients */
   --color-in-cyan: #d6f5f1;
@@ -141,6 +142,3 @@ main {
   }
 }	
 
-.react-player > iframe {
-  border-radius: .75rem !important;
-}

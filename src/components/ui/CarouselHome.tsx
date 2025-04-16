@@ -58,7 +58,7 @@ export const CarouselHome = () => {
         </div>
       </div>
       {/* Indicadores del carrusel */}
-        <div className="relative lg:absolute lg:bottom-4 lg:right-0 lg:-translate-x-1/2 flex gap-2 mt-4 justify-center lg:justify-end">
+        <div className="relative lg:bottom-4 lg:right-0  flex gap-2 mt-4 lg:mt-8 justify-center md:justify-end md:pr-2">
             {slides.map((_, index) => (
             <button
                 key={index}
@@ -66,7 +66,7 @@ export const CarouselHome = () => {
                 onClick={() => scrollTo(index)}
                 onMouseDown={(e) => e.preventDefault()}
                 className={`w-6 h-3 rounded-full bg-in-blue  cursor-pointer ${
-                selectedIndex === index ? "bg-in-blue-light lg:bg-white" : ""
+                selectedIndex === index ? "bg-in-blue-light" : ""
                 }`}
             ></button>
             ))}

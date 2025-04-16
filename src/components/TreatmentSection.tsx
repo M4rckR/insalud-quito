@@ -2,7 +2,7 @@ import ReactPlayer from "react-player/youtube";
 
 export const TreatmentSection = () => {
   return (
-    <div className="relative">
+    <div className="relative mb-96">
         <div className="absolute hidden md:block md:top-[420px] lg:top-[400px] left-0 right-0 w-full inset-0 h-[800px] bg-gradient-to-b from-in-cyan to-in-white -z-10"></div>
       <section className="container mx-auto px-4 max-w-[1400px] mb-12">
         <div className="gap-6">

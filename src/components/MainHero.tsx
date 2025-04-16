@@ -1,5 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Button } from "./ui/Button";
+import { ButtonMain } from "./ui/ButtonMain";
 import { CarouselHome } from "./ui/CarouselHome";
 
 export const MainHero = () => {
@@ -16,7 +16,7 @@ export const MainHero = () => {
             <span className="font-bold">cirugía</span>
           </h2>
           <div className="flex justify-center md:justify-start">
-            <Button>Agendar una cita</Button>
+            <ButtonMain>Agendar una cita</ButtonMain>
           </div>
         </div>
         <div className="flex justify-center md:justify-end">
