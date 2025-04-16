@@ -1,5 +1,4 @@
 import { useKeenSlider } from "keen-slider/react";
-import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useState } from "react";
 
 
@@ -59,7 +58,7 @@ const slides = [
 ];
 
 export const MainBenefits = () => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    
     const [currentSlide, setCurrentSlide] = useState(0)
     const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
       loop: true,
@@ -92,6 +91,9 @@ export const MainBenefits = () => {
           <h4 className="text-2xl lg:text-3xl lg:h-20 text-in-base font-medium mb-2 h-16">
             {slide.name}
           </h4>
+          <p className="hidden">
+            {currentSlide}
+          </p>
           <p className="text-in-base">{slide.desc}</p>
         </div>
       ))}
